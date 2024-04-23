@@ -1,0 +1,316 @@
+.parentContainer{
+    background-color: rgb(207, 204, 204);
+    display: flex;
+    justify-content: center;
+    height:650px;
+ }
+ 
+
+.subContainer{
+    background-color: white;
+    width: 75%;
+    margin-top: 1.5rem;
+}
+ 
+ /*subBody*/
+
+ .subBody .firstHeading{
+    display: flex;
+    justify-content: center;
+ }
+
+button{
+    border-radius: 15px;
+     cursor: pointer;
+     background-color: blue;
+     color: white;
+     padding: 0px 10px 0px 10px;
+     margin-right: 4rem;
+     margin-top: 1.5rem;
+     margin-bottom: 1.5rem;
+     margin-left: 2rem;
+  
+ }  
+
+ .subBody .firstHeading p{
+    margin-left: 35rem; 
+    font-size: 1.5rem;
+    
+ }
+
+.underlined{
+    text-decoration: underline;
+}
+
+
+
+.content .secondHeading h2{
+    text-align: center;
+    font-size: 3rem; 
+}
+ /*Democrats section*/
+
+.demo img{
+    max-width: 45rem;
+    max-height: 20rem;
+    padding-left: 21rem;
+
+}
+
+    
+.bannerDemocrats .section1{
+    display: flex;
+    justify-content: center;
+}
+
+.bannerDemocrats .section1 p{
+    text-align: center;
+}
+
+
+
+ /*Republican*/
+
+
+.repub img{
+    max-width: 45rem;
+    max-height: 20rem;
+     padding-left: 21rem; 
+
+}
+ 
+
+.content .section2 .Ryan img{
+   
+    max-width: 16rem;
+    max-height: 16rem;
+}
+
+.content .section2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content .section2 p{
+   text-align: center;
+    
+}
+
+      /*Third Party*/
+
+.content .Third img{
+    width: 25rem;
+    /* max-height: 20rem; */
+    margin-left: 22rem;
+}
+
+/* .section3 .Jills img{
+ width: 40%;
+} 
+
+.section3 {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center;
+    text-align: center;
+} */
+
+/* .section3 > div {
+    flex: 0.5;
+    text-align: center;
+} */ 
+
+
+
+          /*Write up*/
+
+
+.writeup{
+   padding-left: 11rem;
+   font-weight: 200rem;
+   font-size: 1.3rem;
+         
+ }      
+ 
+ 
+span{
+    border-bottom: 3px solid rgb(118, 118, 240);  
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: square;
+}
+
+
+   /*Biography for democrats*/
+
+.Biography1{
+  text-align: start;
+  padding-left: 11rem;
+  padding-top: 3rem;
+}
+
+.Biography1 p{
+    font-size: 1.5rem;
+}
+
+.Biography1 img{
+    max-width: 45rem;
+}
+
+.Biography2{
+    text-align: start;
+    padding-left: 11rem;
+    padding-top: 3rem;
+  }
+  
+  .Biography2 p{
+      font-size: 1.5rem;
+  }
+  
+  .Biography2 img{
+      max-width: 45rem;
+  }
+  
+
+  .Biography3{
+    text-align: start;
+    padding-left: 11rem;
+    padding-top: 3rem;
+  }
+  
+  .Biography3 p{
+      font-size: 1.5rem;
+  }
+  
+  .Biography3 img{
+      max-width: 45rem;
+  }
+
+
+  /*Biography for Republican*/
+
+  .Biography4{
+    text-align: start;
+    padding-left: 11rem;
+    padding-top: 3rem;
+  }
+  
+  .Biography4 p{
+      font-size: 1.5rem;
+  }
+  
+  .Biography4 img{
+      max-width: 45rem;
+  }
+
+  .Biography5{
+    text-align: start;
+    padding-left: 11rem;
+    padding-top: 3rem;
+  }
+  
+  .Biography5 p{
+      font-size: 1.5rem;
+  }
+  
+  .Biography5 img{
+      max-width: 45rem;
+  }
+
+
+  .Biography6{
+    text-align: start;
+    padding-left: 11rem;
+    padding-top: 3rem;
+  }
+  
+  .Biography6 p{
+      font-size: 1.5rem;
+  }
+  
+  .Biography6 img{
+      max-width: 45rem;
+  }
+
+
+  /*Biography for Third party*/
+
+  .Biography7{
+    text-align: start;
+    padding-left: 11rem;
+    padding-top: 3rem;
+  }
+  
+  .Biography7 p{
+      font-size: 1.5rem;
+  }
+  
+  .Biography7 img{
+      max-width: 45rem;
+  }
+
+  .Biography8{
+    text-align: start;
+    padding-left: 11rem;
+    padding-top: 3rem;
+  }
+  
+  .Biography8 p{
+      font-size: 1.5rem;
+  }
+  
+  .Biography8 img{
+      max-width: 45rem;
+  }
+
+  .Biography9{
+    text-align: start;
+    padding-left: 11rem;
+    padding-top: 3rem;
+  }
+  
+  .Biography9 p{
+      font-size: 1.5rem;
+  }
+  
+  .Biography9 img{
+      max-width: 45rem;
+  }
+
+  /*Drop Out candidates*/
+
+  .DropOut1, .DropOut2, .DropOut3, .DropOut4{
+    display: flex;
+    justify-content: center;
+}
+
+  .DropOut h2{
+   padding-right: 25rem;
+  }
+
+.DropOut{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .DropOut1 img{
+    max-width: 16rem;
+    max-height: 16rem;
+    padding-top: 4rem;
+
+  }
+
+   .DropOut2 img, .DropOut3 img, .DropOut4 img{
+    max-width: 16rem;
+    max-height: 16rem;
+    justify-content: space-between;
+  }
+
+ 
+
+
+
